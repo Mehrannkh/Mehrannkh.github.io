@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Water lilies at Grand Cenote</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Notice banner (added – identical to your original penguin page) -->
+  <div id="site-notice" class="site-notice">
+    <div class="notice-content">
+      <p>
+        All content & images sourced from Bing (copyright belongs to Bing / original owners).<br>
+        This site is only a demo of my web scraping & design skills.
+      </p>
+      <button id="notice-close">Understood</button>
+    </div>
+  </div>
+
+  <div id="b_content">
+    <div id="b_tween">
+      <a href="./index.html" class="ftrH active">Home</a>
+      <a href="./archive/archive.html" class="ftrH">Archive</a>
+      <a href="../about/index.html" class="ftrH">About</a>
+    </div>
+    <div class="main-layout">
+      <div class="main-card">
+        <div class="image-of-day">Image of the day</div>
+        <a href="./ImgWeb/sjVuPOVXqZQDEN.html" class="featured-link">
+          <div class="b_ans">
+            <div class="featured-header">
+              <img src="https://bing.com/th?id=OHR.TulumLilies_EN-US2766347819_1920x1080.jpg" alt="Water lilies at Grand Cenote, Tulum, Mexico">
+            </div>
+            <div class="featured-content">
+              <h1 class="featured-title">Water lilies at Grand Cenote</h1>
+              <div class="featured-subtitle">February 24, 2026</div>
+              <div class="featured-description">Floating lilies, glass-clear pools, and a hidden world below: welcome to the Grand Cenote in Tulum, Mexico. This natural sinkhole formed thousands of years ago when collapsing rock let aquifer waters in. Over time, the chamber filled with clear freshwater that now connects a vast underground system of caves. At first, our eyes rest on the still surface. The water lilies we see in the image float without hurry, their broad leaves catching sunlight while supporting rich ecosystems underneath. These botanical wonders belong to one of the oldest flowering lineages on Earth, dating back more than 125 million years—older than most dinosaurs. Each bloom has evolved clever tricks to attract pollinators—beetles, bees, flies, and even the wind—using scent, shape, and timing to ensure survival in still water.<br><br>As we look closer, the scene comes alive: below, fish weave through submerged roots and turtles glide through leafy shade. Overhead, dragonflies trace arcs while tiny insects spark ripples across the water. Drifting gently among the lilies, we find ourselves surrounded by nature's artistry—where every movement, reflection, and shadow reveals rhythms millions of years in the making.</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <aside class="explore-sidebar">
+        <div class="explore-card">
+          <h2 class="explore-title">Explore more</h2>
+          <div class="explore-list"><a href="./ImgWeb/EtvoyaWIykGkpE.html" class="explore-item"><div class="explore-thumb"><img src="https://bing.com/th?id=OHR.MamTorSunrise_EN-US2655534073_200x200.jpg" alt="The hill of Mam Tor"></div><div class="explore-label">The hill of Mam Tor</div></a><a href="./ImgWeb/dJFCCdQVoGsaNh.html" class="explore-item"><div class="explore-thumb"><img src="https://bing.com/th?id=OHR.MaltaSalt_EN-US0310458987_200x200.jpg" alt="Salt evaporation ponds on the island of Gozo"></div><div class="explore-label">Salt evaporation ponds on the island of Gozo</div></a><a href="./ImgWeb/KZIPeYyMAqedne.html" class="explore-item"><div class="explore-thumb"><img src="https://bing.com/th?id=OHR.NewYearLantern_EN-US6665128229_200x200.jpg" alt="Red lanterns celebrating Chinese New Year"></div><div class="explore-label">Red lanterns celebrating Chinese New Year</div></a><a href="./ImgWeb/AYMonFdvLZBsvC.html" class="explore-item"><div class="explore-thumb"><img src="https://bing.com/th?id=OHR.TetonFox_EN-US2616700325_200x200.jpg" alt="Red fox standing in snowfall"></div><div class="explore-label">Red fox standing in snowfall</div></a><a href="./ImgWeb/IyYsQuuPAqtIdf.html" class="explore-item"><div class="explore-thumb"><img src="https://bing.com/th?id=OHR.ValentineHearts_EN-US6208359150_200x200.jpg" alt="Bleeding hearts"></div><div class="explore-label">Bleeding hearts</div></a></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script>
+    // Notice banner logic (added – same as your original)
+    const notice = document.getElementById('site-notice');
+    const closeBtn = document.getElementById('notice-close');
+
+    notice.classList.add('visible');
+
+    closeBtn.addEventListener('click', () => {
+      notice.classList.remove('visible');
+      setTimeout(() => {
+        notice.style.display = 'none';
+      }, 400);
+    });
+  </script>
+
+</body>
+</html>
